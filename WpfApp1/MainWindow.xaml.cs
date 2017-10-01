@@ -218,7 +218,7 @@ namespace WpfApp1
                 Kamerapruefen();
                 Drehen();
             }
-            else if (e.Key == Key.R)
+            else if (e.Key == Key.F)
             {
                 Oberfläche.Children.Clear();
                 anzeige.Clear();
@@ -229,7 +229,7 @@ namespace WpfApp1
                 }
                 Drehen();
             }
-            else if (e.Key == Key.F)
+            else if (e.Key == Key.R)
             {
                 Oberfläche.Children.Clear();
                 anzeige.Clear();
