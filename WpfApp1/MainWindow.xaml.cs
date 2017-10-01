@@ -27,7 +27,7 @@ namespace WpfApp1
         private double kamerax = 55;
         private double kameray = 55;
         private double kameraz = 50;
-        private int blickrichtung = 0;
+        private int blickrichtung = 0;  //Winkel in dem gedreht wurde
         private double cosBlickrichtung = 1;
         private double sinBlickrichtung = 0;
         private double tan45 = Math.Tan(Math.PI * 45 / 180.0);
