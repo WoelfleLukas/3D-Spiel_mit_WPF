@@ -142,7 +142,7 @@ namespace WpfApp1
         /// <returns>Position des Planeten im Sichtfeld</returns>
         private Position Sollangezeigtwerden(double x, double y, double z)
         {
-            if (y > 10 || y < 0 || z < -0.2)
+            if (z < -0.2)
             {
                 return null;
             }
