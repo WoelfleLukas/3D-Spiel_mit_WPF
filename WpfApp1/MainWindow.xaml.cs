@@ -44,7 +44,6 @@ namespace WpfApp1
             planeten.Add(new Position() { X = 57, Y = 59, Z = 58 });
             planeten.Add(new Position() { X = 57, Y = 59, Z = 48 });
             Drehen();
-
         }
 
         /// <summary>
